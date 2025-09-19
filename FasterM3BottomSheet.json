@@ -1,0 +1,771 @@
+[
+  {
+    "code": "",
+    "imports": "",
+    "color": "#FFF44336",
+    "name": "FM3BS Creator is",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "M3 BottomSheet By Faster Software Developer (No restrictions)"
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "Faster M3 Modal Bottom Sheet",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "Faster M3 Modal Bottom Sheet"
+  },
+  {
+    "code": "BottomSheetDialog %1$s \u003d new BottomSheetDialog(%2$s%5$s);\nView %3$s \u003d getLayoutInflater().inflate(R.layout.%4$s, null);\n%1$s.setContentView(%3$s);\n%7$s\n%1$s.setCancelable(%6$s);\n%1$s.show();",
+    "imports": "com.google.android.material.bottomsheet.BottomSheetDialog",
+    "color": "#FF006492",
+    "name": "FaaterM3ModalBottomSheetBuilder",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "Faster Modal M3BottomSheet Name %s.inputOnly Activity/fragment %s CustomView Name %s.inputOnly Layout %m.layout Style %s Cancelable %b"
+  },
+  {
+    "code": "final %1$s %3$s \u003d %2$s.findViewById(R.id.%4$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS View In Modal Bottom Sheet",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "(Modal) View %m.typeview CustomView Name %s.inputOnly View Id %s.inputOnly FindById %s.inputOnly "
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "FM3BS Styles",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "FM3BS Styles"
+  },
+  {
+    "code": "%2$s.setFocusableInTouchMode(%1$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "Sheet edittext focusable in touch mode",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "Sheet Edittext Focusable In Touch Mode %b Edittext Id %s.inputOnly  "
+  },
+  {
+    "code": " ",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS (Default Style)",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS (Default Style)"
+  },
+  {
+    "code": ", com.google.android.material.R.style.ThemeOverlay_Material3_BottomSheetDialog",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS ThemeOverlay Style",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS ThemeOverlay Style"
+  },
+  {
+    "code": ", com.google.android.material.R.style.Theme_Material3_Dark_BottomSheetDialog",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Dark Style",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS Dark Style"
+  },
+  {
+    "code": ", com.google.android.material.R.style.Theme_Material3_Light_BottomSheetDialog",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Light Style",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS Light Style"
+  },
+  {
+    "code": ", R.style.%1$s",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Custom Style",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS Custom Style R.style.%s"
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "FM3BS Useful Blocks",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "FM3BS Useful Blocks"
+  },
+  {
+    "code": "%1$s.setCancelable(%2$s);",
+    "color": "#FF006492",
+    "name": "FM3BS setCancelable",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Name %s.inputOnly setCancelable %b"
+  },
+  {
+    "code": "%1$s.dismiss();",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS dialog Exit",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Dialog Exit - Dialog Name %s.inputOnly"
+  },
+  {
+    "code": "%1$s.getWindow().setDimAmount(%2$sf);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setDimAmount",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Name %s.inputOnly setDimAmount %s.inputOnly f"
+  },
+  {
+    "code": "%1$s.setCanceledOnTouchOutside(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setCanceledOnTouchOutside",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Name %s.inputOnly setCanceledOnTouchOutside %b"
+  },
+  {
+    "code": "%1$s.getWindow().setBackgroundDrawableResource(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setBackgroundDrawableResource",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Name %s.inputOnly setBackgroundDrawableResource %m.color"
+  },
+  {
+    "code": "%1$s.setOnClickListener(%2$s -\u003e {\n%3$s\n\t\t        });",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Click Listener",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FasterBottomSheet Click Listener %m.view ClickOn %s.inputOnly "
+  },
+  {
+    "code": "%1$s.setOnCancelListener(%2$s -\u003e {\n%3$s\n});",
+    "color": "#FF006492",
+    "name": "FM3BS setOnCancelListener",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FM3BS bottom sheet name %s.inputOnly setOnCancelListener %s.inputOnly"
+  },
+  {
+    "code": "%1$s.setOnDismissListener(%2$s -\u003e {\n%3$s\n});",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setOnDismissListener",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FM3BS bottom sheet name %s.inputOnly setOnDismissListener %s.inputOnly"
+  },
+  {
+    "code": "%1$s.this",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS (Activity)",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "Activity %m.activity"
+  },
+  {
+    "code": "getActivity()",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Fragment (getActivity)",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS Fragment (getActivity)"
+  },
+  {
+    "code": "requireContext()",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Fragment (requireContext)",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS Fragment (requireContext)"
+  },
+  {
+    "code": "getContext()",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Fragment (getContext)",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS Fragment (getContext)"
+  },
+  {
+    "code": "",
+    "imports": "",
+    "color": "#FFFF5722",
+    "name": "Faster M3 Standard Bottom Sheet",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "Faster M3 Standard Bottom Sheet \u0026 behavior"
+  },
+  {
+    "code": "FrameLayout %1$s \u003d %2$s.findViewById(com.google.android.material.R.id.design_bottom_sheet);\n%3$s",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Behavior Builder for modal",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FM3BS Behavior Builder for modal - SetFrameLayout Id (Auto) %s.inputOnly Existing BottomSheet Name %s.inputOnly"
+  },
+  {
+    "code": "BottomSheetBehavior\u003cFrameLayout\u003e %1$s \u003d BottomSheetBehavior.from(%2$s);",
+    "imports": "com.google.android.material.bottomsheet.BottomSheetBehavior",
+    "color": "#FF006492",
+    "name": "FM3BS Behavior Builder",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Behavior Builder - setbehavior id %s.inputOnly FrameLayout Id %m.view"
+  },
+  {
+    "code": "View %1$s \u003d getLayoutInflater().inflate(R.layout.%2$s, %3$s, %4$s);\n\n%5$s\n\n",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Standard Custom View",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FM3BS (Standard) Custom View name %s.inputOnly Layout %m.layout FrameLayout Id %m.view attachToRoot %b"
+  },
+  {
+    "code": "final %1$s %3$s \u003d %2$s.findViewById(R.id.%4$s);",
+    "color": "#FF006492",
+    "name": "FM3BS View In Standard Bottom Sheet",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "(Standard) View %m.typeview CustomView Name %s.inputOnly View Id %s.inputOnly FindById %s.inputOnly "
+  },
+  {
+    "code": "%1$s.addView(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS addView",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Frame Layout id %m.view addView (custom view name) %s.inputOnly"
+  },
+  {
+    "code": "%1$s.removeAllViews();",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS removeAllViews",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Frame Layout id %m.view removeAllViews"
+  },
+  {
+    "code": "%1$s.setMaxHeight(%2$s);",
+    "color": "#FF006492",
+    "name": "FM3BS setMaxHeight",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setMaxHeight %d"
+  },
+  {
+    "code": "%1$s.setMaxWidth(%2$s);",
+    "color": "#FF006492",
+    "name": "FM3BS setMaxWidth",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setMaxWidth %d"
+  },
+  {
+    "code": "%1$s.setHideable(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setHideable behavior",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior Id %s.inputOnly setHideable %b"
+  },
+  {
+    "code": "%1$s.setSkipCollapsed(%2$s); ",
+    "color": "#FF006492",
+    "name": "FM3BS Collapsed State Behavior",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior Id %s.inputOnly setSkipCollapsed %b"
+  },
+  {
+    "code": "%1$s.setDraggable(%2$s);",
+    "color": "#FF006492",
+    "name": "FM3BS draggable behavior",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setDraggable %b"
+  },
+  {
+    "code": "%1$s.setPeekHeight(%2$s); ",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS PeekHeight Behavior",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setPeekHeight %d"
+  },
+  {
+    "code": "%1$s.post(() -\u003e {\n    %1$s.getLayoutParams().height \u003d ViewGroup.LayoutParams.MATCH_PARENT;\n    %1$s.requestLayout();\n});",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS Standard FULLSCREEN_MODE",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Standard FULLSCREEN_MODE - FrameLayout Id %m.view"
+  },
+  {
+    "code": "%1$s.setExpandedOffset(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setExpandedOffset",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setExpandedOffset %d"
+  },
+  {
+    "code": "%1$s.setFitToContents(%2$s);",
+    "color": "#FF006492",
+    "name": "FM3BS setFitToContents",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Behavior id %s.inputOnly setFitToContents %b"
+  },
+  {
+    "code": "%1$s.setHalfExpandedRatio(%2$sf);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setHalfExpandedRatio",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS Behavior id %s.inputOnly setHalfExpandedRatio %s.inputOnly f"
+  },
+  {
+    "code": "%1$s.setSignificantVelocityThreshold(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setSignificantVelocityThreshold",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setSignificantVelocityThreshold %d"
+  },
+  {
+    "code": "%1$s.setState(%2$s);",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS setState",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setState (Add Block) %s"
+  },
+  {
+    "code": "%1$s.addBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {\n    @Override\n    public void onStateChanged(@NonNull View bottomSheet, int newState) {\n%2$s\n    }\n\n    @Override\n    public void onSlide(@NonNull View bottomSheet, float slideOffset) {\n%3$s\n    }\n});",
+    "color": "#FF006492",
+    "name": "FM3BS BottomSheetCallback",
+    "typeName": "",
+    "palette": "9",
+    "type": "e",
+    "spec": "FM3BS Behavior id %s.inputOnly addBottomSheetCallback",
+    "spec2": "onSlide"
+  },
+  {
+    "code": "if (newState \u003d\u003d %1$s) {\n%2$s\n}",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS state (if)",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FM3BS State (Use STATE Block) %s if",
+    "spec2": "add else id blocks"
+  },
+  {
+    "code": "} else if (newState \u003d\u003d %1$s) {\n%2$s",
+    "imports": "",
+    "color": "#FF006492",
+    "name": "FM3BS State (else if)",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FM3BS State (Use STATE Block) %s  else if"
+  },
+  {
+    "code": "BottomSheetBehavior.STATE_EXPANDED",
+    "color": "#FF006492",
+    "name": "FM3BS STATE_EXPANDED",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS STATE_EXPANDED"
+  },
+  {
+    "code": "BottomSheetBehavior.STATE_COLLAPSED",
+    "color": "#FF006492",
+    "name": "FM3BS STATE_COLLAPSED",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS STATE_COLLAPSED"
+  },
+  {
+    "code": "BottomSheetBehavior.STATE_HIDDEN",
+    "color": "#FF006492",
+    "name": "FM3BS STATE_HIDDEN",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS STATE_HIDDEN"
+  },
+  {
+    "code": "BottomSheetBehavior.STATE_DRAGGING",
+    "color": "#FF006492",
+    "name": "FM3BS STATE_DRAGGING",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS STATE_DRAGGING"
+  },
+  {
+    "code": "BottomSheetBehavior.STATE_SETTLING",
+    "color": "#FF006492",
+    "name": "FM3BS STATE_SETTLING",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS STATE_SETTLING"
+  },
+  {
+    "code": "BottomSheetBehavior.STATE_HALF_EXPANDED",
+    "color": "#FF006492",
+    "name": "FM3BS STATE_HALF_EXPANDED",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS STATE_HALF_EXPANDED"
+  },
+  {
+    "code": "",
+    "color": "#FF000000",
+    "name": "FM3BS SAVE FLAG",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "FM3BS SAVE FLAG BLOCKS"
+  },
+  {
+    "code": "%1$s.setSaveFlags(%2$s);",
+    "color": "#FF006492",
+    "name": "FM3BS setSaveFlags",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FM3BS behavior id %s.inputOnly setSaveFlags %s"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_NONE",
+    "color": "#FF006492",
+    "name": "FM3BS save none flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save none flag"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_STATE",
+    "color": "#FF006492",
+    "name": "FM3BS save state flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save state flag"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_PEEK_HEIGHT",
+    "color": "#FF006492",
+    "name": "FM3BS save peek height flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save peek height flag"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_ALL",
+    "color": "#FF006492",
+    "name": "FM3BS save all flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save all flag"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_HIDEABLE",
+    "color": "#FF006492",
+    "name": "FM3BS save hideable flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save hideable flag"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_FIT_TO_CONTENTS",
+    "color": "#FF006492",
+    "name": "FM3BS save fitTocontents flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save fitTocontents flag"
+  },
+  {
+    "code": "BottomSheetBehavior.SAVE_SKIP_COLLAPSED",
+    "color": "#FF006492",
+    "name": "FM3BS save skip collapsed flag",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FM3BS save skip collapsed flag"
+  },
+  {
+    "code": "",
+    "color": "#FFF44336",
+    "name": "FasterBottomSheetDialogFragment",
+    "typeName": "",
+    "palette": "9",
+    "type": "h",
+    "spec": "FasterBottomSheetDialogFragment"
+  },
+  {
+    "code": "%1$s %2$s \u003d new %1$s();\n%2$s.setArguments(%3$s);\n%5$s\n%2$s.show(getSupportFragmentManager(), %4$s);",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "Faster BS Dialog Fragment Builder",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FasterBottomSheetDialogFragment Builder - Fragment %m.activity set dialog name %s.inputOnly bundle name %s.inputOnly Dialog tag %s"
+  },
+  {
+    "code": "BottomSheetDialog %1$s \u003d (BottomSheetDialog) getDialog();\n%2$s",
+    "imports": "com.google.android.material.bottomsheet.BottomSheetDialog\ncom.google.android.material.bottomsheet.BottomSheetDialogFragment",
+    "color": "#FF1565C0",
+    "name": "FBSDF get dialog",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FBSDF get dialog - set Dialog name %s.inputOnly"
+  },
+  {
+    "code": "%1$s.getLayoutParams().height \u003d ViewGroup.LayoutParams.MATCH_PARENT;",
+    "color": "#FF1565C0",
+    "name": "FBSDF Fullscreen mode",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF Fullscreen mode - Frame Layout id %s.inputOnly"
+  },
+  {
+    "code": "dismiss();",
+    "color": "#FF1565C0",
+    "name": "FBSDF dismiss dialog ",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF dismiss dialog "
+  },
+  {
+    "code": "/*-JX4UA2y_f1OckjjvxWI.bQwRei-sLEsBmds7ArsRfi0xSFEP3Php97kjdMCs5ed\n\u003e[\"private void initializeLogic() {\"]\n\u003e0\n\u003e0\n\u003e0\n\u003einsert\n@Override\npublic void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {\nsuper.onViewCreated(view, savedInstanceState);\n%1$s\n}\nBpWI8U4flOpx8Ke66QTlZYBA_NEusQ7BN-D0wvZs7ArsRfi0.EP3Php97kjdMCs*/",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF onViewCreated",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FBSDF onViewCreated"
+  },
+  {
+    "code": "if (getArguments() !\u003d null) {\n%1$s\n}",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF getArguments null check",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FBSDF getArguments null check"
+  },
+  {
+    "code": "getArguments().getString(%1$s)",
+    "color": "#FF1565C0",
+    "name": "FBSDF get data from bundle via Arguments",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FBSDF get data from bundle via Arguments - Key %s"
+  },
+  {
+    "code": "Bundle %1$s \u003d new Bundle();\n\n%2$s\n\n",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF create new bundle",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FBSDF create new bundle %s.inputOnly "
+  },
+  {
+    "code": "%1$s.putString(%2$s, %3$s);",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF Send data (putString)",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF Send data using bundle name %s.inputOnly key (putString) %s value %s"
+  },
+  {
+    "code": "%1$s.putInt(%2$s, %3$s);",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF Send data (putInt)",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF Send data using bundle name %s.inputOnly key (puInt) %s value %d"
+  },
+  {
+    "code": "%1$s.putBoolean(%2$s, %3$s);",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF Send data (putBoolean)",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF Send data using bundle name %s.inputOnly key (putBoolean) %s value %b"
+  },
+  {
+    "code": "%1$s.putDouble(%2$s, %3$s);",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF Send data (putDouble)",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF Send data using bundle name %s.inputOnly key (putDouble) %s value %d"
+  },
+  {
+    "code": "getParentFragmentManager().setFragmentResult(%1$s, %2$s);",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF send data",
+    "typeName": "",
+    "palette": "9",
+    "type": " ",
+    "spec": "FBSDF send data - set a bundle key %s bundle name %s.inputOnly"
+  },
+  {
+    "code": "getSupportFragmentManager().setFragmentResultListener(%1$s, %2$s.this,\n(requestKey, %3$s) -\u003e {\n%4$s\n});",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF receive data (activity)",
+    "typeName": "",
+    "palette": "9",
+    "type": "c",
+    "spec": "FBSDF receive data (activity) - bundle key %s activity %m.activity bundle name %s.inputOnly"
+  },
+  {
+    "code": "%1$s.getString(%2$s)",
+    "color": "#FF1565C0",
+    "name": "FBSDF receive getString",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FBSDF bundle name %s.inputOnly getString %s"
+  },
+  {
+    "code": "%1$s.getInt(%2$s)",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF receive getInt",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FBSDF bundle name %s.inputOnly getInt %d"
+  },
+  {
+    "code": "%1$s.getDouble(%2$s)",
+    "imports": "",
+    "color": "#FF1565C0",
+    "name": "FBSDF receive getDouble",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FBSDF bundle name %s.inputOnly getDouble %d"
+  },
+  {
+    "code": "%1$s.getBoolean(%2$s)",
+    "color": "#FF1565C0",
+    "name": "FBSDF receive getBoolean",
+    "typeName": "",
+    "palette": "9",
+    "type": "s",
+    "spec": "FBSDF bundle name %s.inputOnly getString %b"
+  }
+]
