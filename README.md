@@ -481,6 +481,7 @@ Enable full-screen UI using AndroidX Activity in Java.
 ```gradle
 implementation "androidx.activity:activity:1.9.0"
 implementation "org.jetbrains.kotlin:kotlin-stdlib:2.2.20-RC"
+implementation "androidx.core:core:1.17.0"
 ```
 ```Java
 EdgeToEdge.enable(this);
