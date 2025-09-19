@@ -1,6 +1,6 @@
 # Material 3 Bottom Sheet for Sketchware Pro 🚀
 
-[![YouTube Thumbnail](https://raw.githubusercontent.com/FasterSoftwareDeveloper/Material3-Bottom-Sheet-In-Sketchware-Pro/refs/heads/main/thumbnail.png)](https://www.youtube.com/watch?v=your_video_id_here)
+[![YouTube Thumbnail](https://raw.githubusercontent.com/FasterSoftwareDeveloper/Material3-Bottom-Sheet-In-Sketchware-Pro/refs/heads/main/thumbnail.png)](https://youtu.be/w_gjIEXmEWg?si=fx7tZhjer2y0GYgd)
 *(Click the image to watch the tutorial on YouTube)*
 
 A comprehensive collection of **80+ powerful blocks** to implement modern Material Design 3 Bottom Sheets in your Sketchware Pro projects. This library provides full control over both **Modal** and **Standard** bottom sheets, including behavior, states, callbacks, and styles. It also includes blocks for the recommended `BottomSheetDialogFragment` approach.
