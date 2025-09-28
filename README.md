@@ -471,12 +471,6 @@ Enable full-screen UI using AndroidX Activity in Java.
 
 ---
 
-## Prerequisites
-- compileSdk 34+
-- Material 3 theme
-
----
-
 ## 1. Dependency
 ```gradle
 implementation "androidx.activity:activity:1.9.0"
